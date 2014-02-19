@@ -103,7 +103,7 @@ function LoadTemplate(...) "{{{
 	endif
 	for idx in range(len(templateFileList))
 		let showname = substitute(templateFileList[idx],substr,'','g')
-		echo idx.' : '.showname
+		echo idx.'	:	'.showname
 	endfor
 
 	let rangeStr = input('Please select : ')
